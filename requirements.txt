@@ -1,0 +1,8 @@
+# Runtime dependencies for the app (PyTorch CPU wheels are installed separately in the Dockerfile)
+numpy>=1.26
+pandas>=2.0
+pillow>=10.0
+matplotlib>=3.8
+gradio>=4.40
+sentence-transformers>=3.0
+rank-bm25>=0.2.2

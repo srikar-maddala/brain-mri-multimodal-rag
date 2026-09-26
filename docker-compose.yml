@@ -1,0 +1,35 @@
+# Full stack: the app + its own Ollama server (portable - works on any machine / cloud VM)
+#   docker compose up --build        ->  http://localhost:7860
+services:
+  ollama:
+    image: ollama/ollama:latest
+    volumes:
+      - ollama_models:/root/.ollama          # downloaded LLMs survive restarts
+    restart: unless-stopped
+
+  ollama-pull:                               # one-shot job: downloads the LLM, then exits
+    image: ollama/ollama:latest
+    environment:
+      - OLLAMA_HOST=http://ollama:11434
+    entrypoint: ["/bin/sh", "-c", "sleep 3 && ollama pull ${LLM_MODEL:-qwen3:4b-instruct}"]
+    depends_on:
+      - ollama
+    restart: "no"
+
+  app:
+    build: .
+    image: brain-mri-rag:latest
+    ports:
+      - "7860:7860"
+    environment:
+      - OLLAMA_URL=http://ollama:11434
+      - LLM_MODEL=${LLM_MODEL:-qwen3:4b-instruct}
+    volumes:
+      - ./Data:/app/Data:ro                  # optional: shows real similar-case images + examples
+    depends_on:
+      ollama-pull:
+        condition: service_completed_successfully
+    restart: unless-stopped
+
+volumes:
+  ollama_models:

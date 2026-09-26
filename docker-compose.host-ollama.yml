@@ -1,0 +1,17 @@
+# Lighter option for a laptop: the app runs in Docker, the LLM runs in the Ollama you already
+# installed on Windows (no second 2.5 GB download, less RAM).
+#   docker compose -f docker-compose.host-ollama.yml up --build   ->  http://localhost:7860
+services:
+  app:
+    build: .
+    image: brain-mri-rag:latest
+    ports:
+      - "7860:7860"
+    environment:
+      - OLLAMA_URL=http://host.docker.internal:11434
+      - LLM_MODEL=${LLM_MODEL:-qwen3:4b-instruct}
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - ./Data:/app/Data:ro
+    restart: unless-stopped

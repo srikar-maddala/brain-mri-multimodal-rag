@@ -1,0 +1,21 @@
+# Dataset (download it yourself from Kaggle - it is not redistributed here)
+Data/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+
+# Large / intermediate artifacts that are not needed to run the app
+Notebooks/best_brain_mri_resnet18.pth
+Notebooks/best_brain_mri_glioma_weighted.pth
+models/frozen_feats.pt
+models/brain_mri_embeddings.npy
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/

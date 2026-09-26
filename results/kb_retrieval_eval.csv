@@ -1,0 +1,121 @@
+method,question,lang,hit@1,hit@3,mrr,top1
+BM25,What is a glioma?,en,0,1,0.5,glioma / Glioma grades (WHO grading)
+BM25,Which cells do gliomas start from?,en,1,1,1.0,glioma / What is a glioma
+BM25,What is the difference between low-grade and high-grade glioma?,en,1,1,1.0,glioma / Glioma grades (WHO grading)
+BM25,How is glioblastoma treated?,en,1,1,1.0,glioma / Treatment of glioma
+BM25,What molecular markers are tested in a glioma biopsy?,en,1,1,1.0,glioma / How glioma is diagnosed
+BM25,What affects survival in glioma patients?,en,1,1,1.0,glioma / Prognosis of glioma
+BM25,Is a meningioma cancer?,en,0,1,0.3333333333333333,brain_tumors_overview / Primary vs secondary (metastatic) tumors
+BM25,Are meningiomas more common in women?,en,1,1,1.0,meningioma / Who gets meningioma
+BM25,Can a small meningioma just be monitored instead of operated?,en,0,1,0.5,pituitary_tumors / What is the pituitary gland
+BM25,What is an atypical grade 2 meningioma?,en,1,1,1.0,meningioma / Meningioma grades
+BM25,Why do pituitary tumors cause vision loss?,en,1,1,1.0,pituitary_tumors / Symptoms of pituitary tumors
+BM25,What is a prolactinoma?,en,1,1,1.0,pituitary_tumors / Functioning vs nonfunctioning pituitary tumors
+BM25,How do surgeons reach the pituitary gland?,en,0,1,0.5,pituitary_tumors / What is the pituitary gland
+BM25,Difference between a microadenoma and a macroadenoma,en,1,1,1.0,pituitary_tumors / Types of pituitary tumors
+BM25,Which hormone tests are done for a pituitary tumor?,en,1,1,1.0,pituitary_tumors / How pituitary tumors are diagnosed
+BM25,What does gadolinium contrast do in an MRI?,en,1,1,1.0,brain_mri / Contrast agent (gadolinium)
+BM25,Can I have an MRI if I have a metal implant?,en,0,1,0.3333333333333333,meningioma / Follow-up after meningioma treatment
+BM25,Who reads my MRI scan results?,en,1,1,1.0,brain_mri / Who interprets the results
+BM25,Can an MRI alone tell the exact tumor type?,en,1,1,1.0,brain_mri / Limitations of MRI
+BM25,What is a metastatic brain tumor?,en,1,1,1.0,brain_tumors_overview / Primary vs secondary (metastatic) tumors
+BM25,What is the most common symptom of a brain tumor?,en,1,1,1.0,brain_tumors_overview / Symptoms of brain tumors
+BM25,How accurate is this model on the test set?,en,0,1,0.5,model_card / Data leakage found
+BM25,Why should I not trust a no tumor prediction on a noisy image?,en,1,1,1.0,model_card / Robustness and known failure modes
+BM25,What data leakage was found in the dataset?,en,1,1,1.0,model_card / Data leakage found
+BM25,Is this tool approved for medical diagnosis?,en,1,1,1.0,model_card / Intended use and disclaimer
+BM25,Was ist ein Gliom?,de,0,0,0.0,brain_mri / What is a brain MRI
+BM25,Wie wird ein Meningeom behandelt?,de,0,0,0.0,brain_mri / What is a brain MRI
+BM25,Warum verursachen Hypophysentumoren Sehstörungen?,de,0,0,0.0,brain_mri / What is a brain MRI
+BM25,Ist ein MRT mit Kontrastmittel gefährlich?,de,0,1,0.3333333333333333,brain_mri / What is a brain MRI
+BM25,Wie zuverlässig ist das Modell?,de,0,0,0.0,brain_mri / What is a brain MRI
+Dense,What is a glioma?,en,1,1,1.0,glioma / What is a glioma
+Dense,Which cells do gliomas start from?,en,1,1,1.0,glioma / What is a glioma
+Dense,What is the difference between low-grade and high-grade glioma?,en,1,1,1.0,glioma / Glioma grades (WHO grading)
+Dense,How is glioblastoma treated?,en,1,1,1.0,glioma / Treatment of glioma
+Dense,What molecular markers are tested in a glioma biopsy?,en,1,1,1.0,glioma / How glioma is diagnosed
+Dense,What affects survival in glioma patients?,en,1,1,1.0,glioma / Prognosis of glioma
+Dense,Is a meningioma cancer?,en,1,1,1.0,meningioma / What is a meningioma
+Dense,Are meningiomas more common in women?,en,1,1,1.0,meningioma / Who gets meningioma
+Dense,Can a small meningioma just be monitored instead of operated?,en,1,1,1.0,meningioma / Treatment of meningioma
+Dense,What is an atypical grade 2 meningioma?,en,1,1,1.0,meningioma / Meningioma grades
+Dense,Why do pituitary tumors cause vision loss?,en,1,1,1.0,pituitary_tumors / Symptoms of pituitary tumors
+Dense,What is a prolactinoma?,en,0,1,0.5,pituitary_tumors / Symptoms of pituitary tumors
+Dense,How do surgeons reach the pituitary gland?,en,1,1,1.0,pituitary_tumors / Treatment of pituitary tumors
+Dense,Difference between a microadenoma and a macroadenoma,en,1,1,1.0,pituitary_tumors / Types of pituitary tumors
+Dense,Which hormone tests are done for a pituitary tumor?,en,1,1,1.0,pituitary_tumors / How pituitary tumors are diagnosed
+Dense,What does gadolinium contrast do in an MRI?,en,1,1,1.0,brain_mri / Contrast agent (gadolinium)
+Dense,Can I have an MRI if I have a metal implant?,en,1,1,1.0,brain_mri / Preparing for a brain MRI and safety
+Dense,Who reads my MRI scan results?,en,1,1,1.0,brain_mri / Who interprets the results
+Dense,Can an MRI alone tell the exact tumor type?,en,1,1,1.0,brain_mri / Limitations of MRI
+Dense,What is a metastatic brain tumor?,en,1,1,1.0,brain_tumors_overview / Primary vs secondary (metastatic) tumors
+Dense,What is the most common symptom of a brain tumor?,en,1,1,1.0,brain_tumors_overview / Symptoms of brain tumors
+Dense,How accurate is this model on the test set?,en,0,1,0.5,model_card / Robustness and known failure modes
+Dense,Why should I not trust a no tumor prediction on a noisy image?,en,1,1,1.0,model_card / How to interpret a prediction
+Dense,What data leakage was found in the dataset?,en,1,1,1.0,model_card / Data leakage found
+Dense,Is this tool approved for medical diagnosis?,en,1,1,1.0,model_card / Intended use and disclaimer
+Dense,Was ist ein Gliom?,de,1,1,1.0,glioma / What is a glioma
+Dense,Wie wird ein Meningeom behandelt?,de,1,1,1.0,meningioma / Treatment of meningioma
+Dense,Warum verursachen Hypophysentumoren Sehstörungen?,de,1,1,1.0,pituitary_tumors / Symptoms of pituitary tumors
+Dense,Ist ein MRT mit Kontrastmittel gefährlich?,de,1,1,1.0,brain_mri / Contrast agent (gadolinium)
+Dense,Wie zuverlässig ist das Modell?,de,1,1,1.0,model_card / Robustness and known failure modes
+Hybrid (RRF),What is a glioma?,en,1,1,1.0,glioma / What is a glioma
+Hybrid (RRF),Which cells do gliomas start from?,en,1,1,1.0,glioma / What is a glioma
+Hybrid (RRF),What is the difference between low-grade and high-grade glioma?,en,1,1,1.0,glioma / Glioma grades (WHO grading)
+Hybrid (RRF),How is glioblastoma treated?,en,1,1,1.0,glioma / Treatment of glioma
+Hybrid (RRF),What molecular markers are tested in a glioma biopsy?,en,1,1,1.0,glioma / How glioma is diagnosed
+Hybrid (RRF),What affects survival in glioma patients?,en,1,1,1.0,glioma / Prognosis of glioma
+Hybrid (RRF),Is a meningioma cancer?,en,1,1,1.0,meningioma / What is a meningioma
+Hybrid (RRF),Are meningiomas more common in women?,en,1,1,1.0,meningioma / Who gets meningioma
+Hybrid (RRF),Can a small meningioma just be monitored instead of operated?,en,1,1,1.0,meningioma / Treatment of meningioma
+Hybrid (RRF),What is an atypical grade 2 meningioma?,en,1,1,1.0,meningioma / Meningioma grades
+Hybrid (RRF),Why do pituitary tumors cause vision loss?,en,1,1,1.0,pituitary_tumors / Symptoms of pituitary tumors
+Hybrid (RRF),What is a prolactinoma?,en,1,1,1.0,pituitary_tumors / Functioning vs nonfunctioning pituitary tumors
+Hybrid (RRF),How do surgeons reach the pituitary gland?,en,0,1,0.5,pituitary_tumors / What is the pituitary gland
+Hybrid (RRF),Difference between a microadenoma and a macroadenoma,en,1,1,1.0,pituitary_tumors / Types of pituitary tumors
+Hybrid (RRF),Which hormone tests are done for a pituitary tumor?,en,1,1,1.0,pituitary_tumors / How pituitary tumors are diagnosed
+Hybrid (RRF),What does gadolinium contrast do in an MRI?,en,1,1,1.0,brain_mri / Contrast agent (gadolinium)
+Hybrid (RRF),Can I have an MRI if I have a metal implant?,en,1,1,1.0,brain_mri / Preparing for a brain MRI and safety
+Hybrid (RRF),Who reads my MRI scan results?,en,1,1,1.0,brain_mri / Who interprets the results
+Hybrid (RRF),Can an MRI alone tell the exact tumor type?,en,1,1,1.0,brain_mri / Limitations of MRI
+Hybrid (RRF),What is a metastatic brain tumor?,en,1,1,1.0,brain_tumors_overview / Primary vs secondary (metastatic) tumors
+Hybrid (RRF),What is the most common symptom of a brain tumor?,en,1,1,1.0,brain_tumors_overview / Symptoms of brain tumors
+Hybrid (RRF),How accurate is this model on the test set?,en,0,1,0.3333333333333333,model_card / Data leakage found
+Hybrid (RRF),Why should I not trust a no tumor prediction on a noisy image?,en,1,1,1.0,model_card / Robustness and known failure modes
+Hybrid (RRF),What data leakage was found in the dataset?,en,1,1,1.0,model_card / Data leakage found
+Hybrid (RRF),Is this tool approved for medical diagnosis?,en,1,1,1.0,model_card / Intended use and disclaimer
+Hybrid (RRF),Was ist ein Gliom?,de,1,1,1.0,glioma / What is a glioma
+Hybrid (RRF),Wie wird ein Meningeom behandelt?,de,0,0,0.1,brain_tumors_overview / Common types of brain tumors
+Hybrid (RRF),Warum verursachen Hypophysentumoren Sehstörungen?,de,0,0,0.0,brain_tumors_overview / What is a brain tumor
+Hybrid (RRF),Ist ein MRT mit Kontrastmittel gefährlich?,de,1,1,1.0,brain_mri / Contrast agent (gadolinium)
+Hybrid (RRF),Wie zuverlässig ist das Modell?,de,0,0,0.0,brain_mri / Preparing for a brain MRI and safety
+Hybrid (adaptive),What is a glioma?,en,1,1,1.0,glioma / What is a glioma
+Hybrid (adaptive),Which cells do gliomas start from?,en,1,1,1.0,glioma / What is a glioma
+Hybrid (adaptive),What is the difference between low-grade and high-grade glioma?,en,1,1,1.0,glioma / Glioma grades (WHO grading)
+Hybrid (adaptive),How is glioblastoma treated?,en,1,1,1.0,glioma / Treatment of glioma
+Hybrid (adaptive),What molecular markers are tested in a glioma biopsy?,en,1,1,1.0,glioma / How glioma is diagnosed
+Hybrid (adaptive),What affects survival in glioma patients?,en,1,1,1.0,glioma / Prognosis of glioma
+Hybrid (adaptive),Is a meningioma cancer?,en,1,1,1.0,meningioma / What is a meningioma
+Hybrid (adaptive),Are meningiomas more common in women?,en,1,1,1.0,meningioma / Who gets meningioma
+Hybrid (adaptive),Can a small meningioma just be monitored instead of operated?,en,1,1,1.0,meningioma / Treatment of meningioma
+Hybrid (adaptive),What is an atypical grade 2 meningioma?,en,1,1,1.0,meningioma / Meningioma grades
+Hybrid (adaptive),Why do pituitary tumors cause vision loss?,en,1,1,1.0,pituitary_tumors / Symptoms of pituitary tumors
+Hybrid (adaptive),What is a prolactinoma?,en,1,1,1.0,pituitary_tumors / Functioning vs nonfunctioning pituitary tumors
+Hybrid (adaptive),How do surgeons reach the pituitary gland?,en,1,1,1.0,pituitary_tumors / Treatment of pituitary tumors
+Hybrid (adaptive),Difference between a microadenoma and a macroadenoma,en,1,1,1.0,pituitary_tumors / Types of pituitary tumors
+Hybrid (adaptive),Which hormone tests are done for a pituitary tumor?,en,1,1,1.0,pituitary_tumors / How pituitary tumors are diagnosed
+Hybrid (adaptive),What does gadolinium contrast do in an MRI?,en,1,1,1.0,brain_mri / Contrast agent (gadolinium)
+Hybrid (adaptive),Can I have an MRI if I have a metal implant?,en,1,1,1.0,brain_mri / Preparing for a brain MRI and safety
+Hybrid (adaptive),Who reads my MRI scan results?,en,1,1,1.0,brain_mri / Who interprets the results
+Hybrid (adaptive),Can an MRI alone tell the exact tumor type?,en,1,1,1.0,brain_mri / Limitations of MRI
+Hybrid (adaptive),What is a metastatic brain tumor?,en,1,1,1.0,brain_tumors_overview / Primary vs secondary (metastatic) tumors
+Hybrid (adaptive),What is the most common symptom of a brain tumor?,en,1,1,1.0,brain_tumors_overview / Symptoms of brain tumors
+Hybrid (adaptive),How accurate is this model on the test set?,en,0,1,0.5,model_card / Robustness and known failure modes
+Hybrid (adaptive),Why should I not trust a no tumor prediction on a noisy image?,en,1,1,1.0,model_card / How to interpret a prediction
+Hybrid (adaptive),What data leakage was found in the dataset?,en,1,1,1.0,model_card / Data leakage found
+Hybrid (adaptive),Is this tool approved for medical diagnosis?,en,1,1,1.0,model_card / Intended use and disclaimer
+Hybrid (adaptive),Was ist ein Gliom?,de,1,1,1.0,glioma / What is a glioma
+Hybrid (adaptive),Wie wird ein Meningeom behandelt?,de,1,1,1.0,meningioma / Treatment of meningioma
+Hybrid (adaptive),Warum verursachen Hypophysentumoren Sehstörungen?,de,1,1,1.0,pituitary_tumors / Symptoms of pituitary tumors
+Hybrid (adaptive),Ist ein MRT mit Kontrastmittel gefährlich?,de,1,1,1.0,brain_mri / Contrast agent (gadolinium)
+Hybrid (adaptive),Wie zuverlässig ist das Modell?,de,1,1,1.0,model_card / Robustness and known failure modes

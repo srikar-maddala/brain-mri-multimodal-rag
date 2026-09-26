@@ -1,0 +1,13 @@
+# Keep the build context small: only what the Dockerfile COPYs is needed
+Data/
+results/
+**/__pycache__/
+**/*.ipynb
+**/.ipynb_checkpoints/
+Notebooks/best_brain_mri_resnet18.pth
+Notebooks/best_brain_mri_glioma_weighted.pth
+Notebooks/output.png
+models/frozen_feats.pt
+models/brain_mri_embeddings.npy
+.git/
+.venv/
