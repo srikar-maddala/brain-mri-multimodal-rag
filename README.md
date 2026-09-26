@@ -1,6 +1,6 @@
 # 🧠 Explainable Brain MRI Assistant: Multimodal RAG with a Local LLM
 
-![CI/CD](https://github.com/YOUR-USERNAME/brain-mri-multimodal-rag/actions/workflows/ci.yml/badge.svg)
+![CI/CD](https://github.com/srikar-maddala/brain-mri-multimodal-rag/actions/workflows/ci.yml/badge.svg)
 ![Python](https://img.shields.io/badge/python-3.11-blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-CPU-orange)
 ![LLM](https://img.shields.io/badge/LLM-Qwen3--4B%20via%20Ollama-green)
@@ -244,4 +244,4 @@ GitHub Actions runs on every push and pull request:
 
 ## Author
 
-**Srikar Maddala**: [LinkedIn](https://www.linkedin.com/in/YOUR-PROFILE) · [GitHub](https://github.com/YOUR-USERNAME)
+**Srikar Maddala**: [LinkedIn](https://www.linkedin.com/in/srikar-maddala-a21a5823b) · [GitHub](https://github.com/srikar-maddala)
