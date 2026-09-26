@@ -1,6 +1,6 @@
 # 🧠 Explainable Brain MRI Assistant: Multimodal RAG with a Local LLM
 
-![CI/CD](https://github.com/srikar-maddala/brain-mri-multimodal-rag/actions/workflows/ci.yml/badge.svg)
+![CI/CD](https://github.com/YOUR-USERNAME/brain-mri-multimodal-rag/actions/workflows/ci.yml/badge.svg)
 ![Python](https://img.shields.io/badge/python-3.11-blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-CPU-orange)
 ![LLM](https://img.shields.io/badge/LLM-Qwen3--4B%20via%20Ollama-green)
@@ -17,11 +17,11 @@ each of which was fixed and re-measured.
 > ⚠️ **Educational research project, not a medical device.** Test accuracy is 69% and glioma recall is only 24%.
 > Predictions must never be used for diagnosis. Real scans must be reviewed by a radiologist.
 
-<!-- Add your screenshots to docs/ and uncomment:
-| Correct, confident prediction | Unreliable prediction, flagged by the assistant |
+| ✅ Correct prediction: Grad-CAM focuses on the pituitary mass | ⚠️ A glioma misclassified as meningioma with 100% confidence: the assistant's warning still fires |
 |---|---|
 | ![pituitary](docs/screenshot_pituitary.png) | ![glioma](docs/screenshot_glioma.png) |
--->
+
+The second example shows why the reliability layer matters: **high confidence does not mean correct.**
 
 ---
 
@@ -244,4 +244,4 @@ GitHub Actions runs on every push and pull request:
 
 ## Author
 
-**Srikar Maddala**: [LinkedIn](https://www.linkedin.com/in/srikar-maddala-a21a5823b) · [GitHub](https://github.com/srikar-maddala)
+**Srikar Maddala**: [LinkedIn](https://www.linkedin.com/in/YOUR-PROFILE) · [GitHub](https://github.com/YOUR-USERNAME)
