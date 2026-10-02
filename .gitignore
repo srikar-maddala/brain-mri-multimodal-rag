@@ -19,3 +19,6 @@ models/brain_mri_embeddings.npy
 .DS_Store
 Thumbs.db
 .vscode/
+
+# Local Claude Code notes
+CLAUDE.md
