@@ -19,7 +19,7 @@ each of which was fixed and re-measured.
 
 | ✅ Correct prediction: Grad-CAM focuses on the pituitary mass | ⚠️ A glioma misclassified as meningioma with 100% confidence: the assistant's warning still fires |
 |---|---|
-| ![pituitary](Docs/screenshot_pituitary.png) | ![glioma](Docs/screenshot_glioma.png) |
+| ![pituitary](docs/screenshot_pituitary.png) | ![glioma](docs/screenshot_glioma.png) |
 
 The second example shows why the reliability layer matters: **high confidence does not mean correct.**
 
